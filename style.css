@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins','sans-serif';
+}
+
+.container{
+    width: 200%;
+    height: 200vh;
+    display: flex;
+
+    
+    align-items: center;
+    justify-content: center;
+} 
+
+
+
+h3{
+    font-size: 50px;
+}
+ .popup
+{
+
+    
+    border-radius: 6px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50% ,-50%) scale(0.1);
+    text-align: center;
+    padding: 0 30px 30px;
+    
+    visibility: hidden;
+    transition: transform 0.4s,top 0.4s;
+} 
+.open-popup{
+    visibility: visible;
+    top:50%;
+    transform: translate(-50%,-50%) scale(1);
+}
+
+
+.popup button{
+    width: 90px;
+    margin-top: 50px;
+    padding: 10px 0;
+    background-color: #b32fb3;
+background-image: linear-gradient(0deg, #c33dc3 0%, #07454c 100%);
+
+    
+    border: 5px solid rgb(10, 3, 3);
+    border-radius: 20px;
+    box-shadow: 0px 20px 40px black;
+    
+   
+    box-shadow: 0 5px 7px rgba(0, 0, 0, 2);
+    
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+button{
+    
+    color: rgb(255, 255, 255);
+    padding: 2opx 20px;
+    font-size: 20px;
+}
+#me{
+    height: 30vh;
+    width: 50vh;
+}
+
+
+.btn{
+    height: 20vh;
+    width: 70vh;
+    font-family: "Nerko One", cursive;
+    font-size:20px ;
+    color: rgb(246, 246, 246);
+    padding: 20px 20px;
+     background-color: #4158D0;
+    background-image: linear-gradient(43deg, #c1c7e6 0%, #61115c 46%, #c6460b 100%);
+    ;
+    border: 5px solid rgb(10, 3, 3);
+    border-radius: 20px;
+    box-shadow: 0px 20px 40px black;
+    cursor:pointer;
+    outline:none;
+ }
+ .button{
+    
+    border-radius: 20px 20px ;
+    color: rgb(249, 244, 244);
+    background-color: #61115c;
+    
+ }
